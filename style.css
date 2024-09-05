@@ -1,5 +1,3 @@
-
-
 body {
     width: 100%;
     height: 100%;
@@ -22,7 +20,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     margin: 20px auto;
-    flex-direction: row; /* Default layout */
+    flex-direction: row; 
 }
 
 .left, .right {
@@ -30,10 +28,17 @@ body {
     padding: 20px;
 }
 
+.right{
+    display: flex;
+    justify-content: center;
+
+}
+
 .left {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #555;
 }
 
 .left h2 {
@@ -41,24 +46,30 @@ body {
     color: #333;
 }
 
+.left form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .left form label {
     font-weight: bold;
     margin-top: 10px;
     display: block;
-    color: #555;
+    color: #ffffff;
 }
 
 .left form input {
-    width: 100%;
+    width: 90%;
     padding: 10px;
-    margin-top: 5px;
+    margin: 5px 5px;
     border-radius: 5px;
     border: 1px solid #ccc;
     font-size: 16px;
 }
 
 .left form button {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     margin-top: 20px;
     background-color: #62aae4;
@@ -67,6 +78,8 @@ body {
     color: white;
     font-size: 16px;
     cursor: pointer;
+    margin-left: 20px;
+   
 }
 
 .left form button:hover {
@@ -148,160 +161,49 @@ input[type="number"] {
     .container {
         flex-direction: column-reverse; 
         width: 90%; 
+        justify-content: center;
     }
 
     .left, .right {
-        width: 92%; 
-        padding: 10px; 
+        width: 100%;  
+        padding: 0px;
+        padding-left: 10px;
+       
+    }
+    .left{
+        margin: 0px;
     }
 
     .left form button {
         margin-top: 15px;
         padding: 12px;
         font-size: 14px;
+        margin-left: 0;
+        margin-bottom: 10px;
+       
+    }
+
+    .left form input {
+        width: 87%;
+       
     }
 
     .right img {
         margin-top: 15px;
-        height: 200px; /* Adjust image height */
+        height: 200px;
     }
 
     table {
-        width: 95%; /* Make table full-width on mobile */
-        font-size: 14px; /* Reduce font size */
+        width: 95%; 
+        font-size: 14px; 
     }
 
     th, td {
-        padding: 8px; /* Less padding in table cells */
+        padding: 8px; 
+    }
+
+    .updatebtn{
+        margin-bottom: 3px;
     }
 }
 
-
-/* body {
-    width: 100%;
-    height: 100%;
-    background-color: #0dd2d2;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: Arial, sans-serif;
-}
-
-.container {
-    display: flex;
-    width: 80%;
-    max-width: 1200px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    margin: 20px auto;
-}
-
-.left, .right {
-    width: 50%;
-    padding: 20px;
-}
-
-.left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.left h2 {
-    margin-bottom: 20px;
-    color: #333;
-}
-
-.left form label {
-    font-weight: bold;
-    margin-top: 10px;
-    display: block;
-    color: #555;
-}
-
-.left form input {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    font-size: 16px;
-}
-
-.left form button {
-    width: 100%;
-    padding: 10px;
-    margin-top: 20px;
-    background-color: #07a31d;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-.left form button:hover {
-    background-color: #069c19;
-}
-
-.right img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    object-fit: cover;
-}
-
-.deleteBtn {
-    padding: 5px 10px;
-    background-color: rgb(211, 49, 49);
-    border-radius: 5px;
-    color: white;
-    cursor: pointer;
-    border: none;
-    margin-left: 5px;
-}
-
-.updatebtn {
-    padding: 5px 10px;
-    background-color: rgb(7, 156, 29);
-    border-radius: 5px;
-    color: white;
-    cursor: pointer;
-    border: none;
-}
-
-table {
-    border-collapse: collapse;
-    margin-top: 20px;
-    width: 80%;
-    max-width: 1000px;
-    margin: 20px auto;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: none;
-}
-
-th, td {
-    border: 1px solid black;
-    padding: 10px;
-    text-align: left;
-}
-
-th {
-    background-color: #f2f2f2;
-    font-weight: bold;
-}
-
-td {
-    background-color: #f9f9f9;
-}
-
-#studentTable {
-    display: none;
-} */
