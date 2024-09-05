@@ -1,19 +1,30 @@
-Student Registration Project
-Overview
+# Student Registration Project
+
+## Overview
+
 The Student Registration Project is a web-based application that allows users to register students by entering their details (ID, Name, Email, Phone) and store these records in the browser's local storage. Users can also update or delete records from the list of registered students. The application is built using HTML, CSS, and JavaScript.
 
-Features
-Student Registration: Allows users to register new students by entering their details (ID, Name, Email, Phone).
-Update Records: Users can update the details of existing students.
-Delete Records: Users can delete student records from the list.
-Local Storage: All records are stored in the browser's local storage, ensuring data persistence even after page refresh.
-Responsive Design: The application is responsive and works well on both desktop and mobile devices.
-Technologies Used
-HTML: Structure of the application.
-CSS: Styling and layout of the application, including responsiveness.
-JavaScript: Handling form submissions, updating local storage, and manipulating the DOM to display records.
-Setup and Installation
+## Features
+
+- **Student Registration:** Allows users to register new students by entering their details (ID, Name, Email, Phone).
+- **Update Records:** Users can update the details of existing students.
+- **Delete Records:** Users can delete student records from the list.
+- **Local Storage:** All records are stored in the browser's local storage, ensuring data persistence even after page refresh.
+- **Responsive Design:** The application is responsive and works well on both desktop and mobile devices.
+
+## Technologies Used
+
+- **HTML:** Structure of the application.
+- **CSS:** Styling and layout of the application, including responsiveness.
+- **JavaScript:** Handling form submissions, updating local storage, and manipulating the DOM to display records.
+
+## Setup and Installation
+
 To run the project locally, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yogesh7122002/Student-Registration-Project.git
 
 Clone the repository:
 
