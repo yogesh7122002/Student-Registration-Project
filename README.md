@@ -1,4 +1,5 @@
 # Student Registration Project
+### CheckOut Live Website here https://yogesh-student-regisration.netlify.app/
 
 ## Overview
 
@@ -28,10 +29,8 @@ To run the project locally, follow these steps:
 
 Clone the repository:
 
-bash
-Copy code
 git clone https://github.com/yogesh7122002/Student-Registration-Project.git
-Navigate to the project directory:
+
 
 bash
 Copy code
